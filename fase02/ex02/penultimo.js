@@ -1,3 +1,3 @@
 function penultimo(str) {
-    return str.slice(-2, -1);
+    return str.substr(-2, 1);
 }

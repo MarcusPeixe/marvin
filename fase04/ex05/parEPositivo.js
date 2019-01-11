@@ -1,3 +1,8 @@
 function parEPositivo(num) {
-    return (num >= 0) && (num % 2 ==+ 0);
+    if (num >= 0 && num % 2 === 0) {
+        return "Sim";
+    }
+    else {
+        return "Não";
+    }
 }

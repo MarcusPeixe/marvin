@@ -1,4 +1,4 @@
-function alfabetoMilitar(code) {
+function alfabetoMilitar(letra) {
     letra = letra.toLowerCase();
     if (letra == 'a') {
         return "alpha";

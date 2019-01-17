@@ -11,5 +11,3 @@ function por42(min, max) {
     console.log("Não encontrado");
     return false;
 }
-
-console.log(por42(83, 1500));

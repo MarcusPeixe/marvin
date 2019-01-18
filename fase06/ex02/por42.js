@@ -1,5 +1,5 @@
 function por42(min, max) {
-    var i = 0;
+    var i = Math.floor(min / 42) * 42;
     var multiple = 0;
     while (i <= max) {
         if (i >= min)

@@ -3,11 +3,11 @@ function diaDaSemana(str) {
     const weekDays = [
         "Domingo",
         "Segunda-feira",
-        "Terca-feira",
+        "Terça-feira",
         "Quarta-feira",
         "Quinta-feira",
         "Sexta-feira",
-        "Sabado"
+        "Sábado"
     ];
     var day = new Date(dateStr);
     return weekDays[day.getDay()];
